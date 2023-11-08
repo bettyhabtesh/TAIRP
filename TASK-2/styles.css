@@ -1,0 +1,49 @@
+/** @format */
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: pink;
+}
+
+.container {
+  max-width: 700px;
+  margin: 30px auto;
+  background-color: #f4adb4;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  background-color: purple;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+input {
+  padding: 5px 10px;
+  width: 80%;
+  font-size: 14px;
+}
